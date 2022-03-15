@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mentorship Sign-up form</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="title">Mentorship Sign-up form</h1>
+        <div id="form-outer">
+            <p id="description">
+                Let us know how we can help for the project
+            </p>
+            <form id="survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
+                <div class="rowTab">
+                    <section class="labels">
+                        <label id="name-label" for="name">* Project Name: </label>
+                    </section>
+                    <section class="rightTab">
+                        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="          " required>
+                    </section>
+                </div>
+                <div class="rowTab">
+                    <section class="labels">
+                        <label id="email-label" for="email">* Aim of the project: </label>
+                    </section>
+                    <section class="rightTab">
+                        <input type="text" name="text" id="aim" class="input-field" required placeholder="       ">
+                    </section>
+                </div>
+                <div class="rowTab">
+                    <section class="labels">
+                        <label id="email-label" for="email">* Project type: </label>
+                    </section>
+                    <section class="rightTab">
+                        <input type="text" name="type" id="type" class="input-field" required placeholder="       ">
+                    </section>
+                </div>
+                <div class="rowTab">
+                    <section class="labels">
+                        <label for="comments">Project in detail</label>
+                    </section>
+                    <section class="rightTab">
+                        <textarea id="details" class="input-field" style="height:50px;resize:vertical;" name="details" placeholder="     "></textarea>
+                    </section>
+                </div>
+                <div class="rowTab">
+                    <section class="labels">
+                        <label id="email-label" for="email">* working condition: </label>
+                    </section>
+                    <section class="rightTab">
+                        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="       "></textarea>
+                    </section>
+                </div>
+                <div class="rowTab">
+                    <section class="labels">
+                        <label id="email-label" for="email">* Resources needed: </label>
+                    </section>
+                    <section class="rightTab">
+                        <input type="text" name="type" id="type" class="input-field" required placeholder="       ">
+                    </section>
+                </div>
+                <div class="rowTab">
+                    <section class="labels">
+                        <label id="email-label" for="email">* Time required to finish: </label>
+                    </section>
+                    <section class="rightTab">
+                        <input type="text" name="type" id="type" class="input-field" required placeholder="       ">
+                    </section>
+                </div>
+                <div class="rowTab">
+                    <section class="labels">
+                        <label id="email-label" for="email">* Budget required(approx): </label>
+                    </section>
+                    <section class="rightTab">
+                        <input type="text" name="type" id="type" class="input-field" required placeholder="       ">
+                    </section>
+                </div>
+                <div class="rowTab">
+                    <section class="labels">
+                        <label for="comments">Other details</label>
+                    </section>
+                    <section class="rightTab">
+                        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="       "></textarea>
+                    </section>
+                </div>
+                <button id="submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
